@@ -1,0 +1,903 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-PC" at "2026-07-28T04:00:24.4609331Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'es' Physical Memory: 32538 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-07-28T04:00:24Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker20
+-projectPath
+C:/Users/PC/Desktop/FPS FINAL PROGRAMACION
+-logFile
+Logs/AssetImportWorker20.log
+-srvPort
+60744
+-licensingIpc
+LicenseClient-PC
+-job-worker-count
+9
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/PC/Desktop/FPS FINAL PROGRAMACION
+C:/Users/PC/Desktop/FPS FINAL PROGRAMACION
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [44304]  Target information:
+
+Player connection [44304]  * "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 2506178593 [EditorId] 2506178593 [Version] 1048832 [Id] WindowsEditor(7,PcGero) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [44304] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [44304] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PC/Desktop/FPS FINAL PROGRAMACION/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   NVIDIA
+    VRAM:     12086 MB
+    Driver:   32.0.16.1074
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001460 seconds.
+- Loaded All Assemblies, in  0.301 seconds
+Native extension for WindowsStandalone target not found
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              8064af044bb546dfafea0b5313246907
+  Correlation Id:          03c3303d3d83162ad75a4804f46aa8b4
+  External correlation Id: 3421777546771667725
+  Machine Id:              HszR+TC4f9GrCr485VK9zudsoGM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-PC" (connect: 0.00s, validation: 0.00s, handshake: 0.95s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-PC-notifications" at "2026-07-28T04:00:25.4152269Z"
+[Licensing::Module] Licensing Background thread has ended after 0.95s
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.312 seconds
+Domain Reload Profiling: 611ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (127ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (113ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (313ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674120564184-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.631 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.745 seconds
+Domain Reload Profiling: 1372ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (413ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (127ms)
+			BuildScriptInfoCaches (51ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (745ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (412ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6317 unused Assets / (5.8 MB). Loaded Objects now: 7138.
+Memory consumption went from 154.9 MB to 149.1 MB.
+Total: 6.966000 ms (FindLiveObjects: 0.466300 ms CreateObjectMapping: 0.440600 ms MarkObjects: 4.049600 ms  DeleteObjects: 2.008800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6326 unused Assets / (5.8 MB). Loaded Objects now: 7156.
+Memory consumption went from 153.2 MB to 147.4 MB.
+Total: 10.463300 ms (FindLiveObjects: 0.584300 ms CreateObjectMapping: 0.617500 ms MarkObjects: 6.247700 ms  DeleteObjects: 3.011600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 122211.801388 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Effects/Preview/ppfxRayRing02.png
+  artifactKey: Guid(854788206084e1f43a1f261206dad96d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Effects/Preview/ppfxRayRing02.png using Guid(854788206084e1f43a1f261206dad96d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72a1a5a7ebf30585961481c3a421c4ae') in 0.1385623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview/ppfxExplosionHeavyFireTrail.png
+  artifactKey: Guid(c2152c13cc5779341aa48ab8b8afa353) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview/ppfxExplosionHeavyFireTrail.png using Guid(c2152c13cc5779341aa48ab8b8afa353) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52afad13075b2d421aae5c11c20f7ebb') in 0.0075964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ParticleProFX/DemoScene/Prefabs/_DemoSceneWeb.prefab
+  artifactKey: Guid(0fa15f6ae3368df49ba58abd364a9042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/DemoScene/Prefabs/_DemoSceneWeb.prefab using Guid(0fa15f6ae3368df49ba58abd364a9042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5bed91ae1eef4783906266ab5f5e675c') in 0.0172834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ParticleProFX/Resources/Scripts/PPFXClickMoveSmooth.cs
+  artifactKey: Guid(f789666bd48738a4cad0868606038934) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Scripts/PPFXClickMoveSmooth.cs using Guid(f789666bd48738a4cad0868606038934) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a2dece79b2b190a5e621b72d2f971a7') in 0.0041687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ParticleProFX/Resources/Scripts/PPFXPhysicForce.cs
+  artifactKey: Guid(a97474e35cd3dec4b9df10fbc86081ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Scripts/PPFXPhysicForce.cs using Guid(a97474e35cd3dec4b9df10fbc86081ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50506bdd0f2ad6130ac9863d1b8917e4') in 0.0082287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ParticleProFX/Resources/Materials/matppfx_fire01.mat
+  artifactKey: Guid(486cf27a28f674cb6bd6bc70816fc9a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Materials/matppfx_fire01.mat using Guid(486cf27a28f674cb6bd6bc70816fc9a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '101fbd5e22ad9902a9dd6d91ae5b6717') in 0.0135899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview/ppfxExplosionHeavyDebris2.png
+  artifactKey: Guid(d019663e242497c49ac4fb2bda32a661) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview/ppfxExplosionHeavyDebris2.png using Guid(d019663e242497c49ac4fb2bda32a661) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '959d91110bb45bbbf8ecc69aac4e71fc') in 0.006381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ParticleProFX/Resources/Textures/star02.png
+  artifactKey: Guid(bffa1aa174b9b0c4c862bc085938d1dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Textures/star02.png using Guid(bffa1aa174b9b0c4c862bc085938d1dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '44c4b7f475f88fbecdae39e306965a24') in 0.0053537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ParticleProFX/Resources/Textures/smokeSheet02.png
+  artifactKey: Guid(4298a8c614f304d2eab7d05856f874bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Textures/smokeSheet02.png using Guid(4298a8c614f304d2eab7d05856f874bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ddc633ee863fa0ed1974241dcc124f44') in 0.0059441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ParticleProFX/Resources/Library/BloodSplatter/ppfxBloodSplatter_01.prefab
+  artifactKey: Guid(2feb59cce5cec914da1d53434700a447) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/BloodSplatter/ppfxBloodSplatter_01.prefab using Guid(2feb59cce5cec914da1d53434700a447) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12d38ffa2c8d027f60065e4e7de80d5c') in 0.0542806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ParticleProFX/Resources/Scripts/PPFXLightFlare.cs
+  artifactKey: Guid(15a4adcdbd17311459ca9f4ee12be4a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Scripts/PPFXLightFlare.cs using Guid(15a4adcdbd17311459ca9f4ee12be4a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d304fd12a7fa66d02ad82faa58b7cc3') in 0.0029837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ParticleProFX/Resources/Materials/matppfx_yellowSelfIllum.mat
+  artifactKey: Guid(eb6ea74ae35e4644394e9dcbe44dc465) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Materials/matppfx_yellowSelfIllum.mat using Guid(eb6ea74ae35e4644394e9dcbe44dc465) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce0568bca08307f6d6ca3b5131f6281e') in 0.0068206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Effects
+  artifactKey: Guid(e1a65c2c499a0874db9ee20ffaa05e8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Effects using Guid(e1a65c2c499a0874db9ee20ffaa05e8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e09474271fed709ae628d2a7df2776d4') in 0.0024573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ParticleProFX/Resources/Materials/matppfx_whiteSelfIllum.mat
+  artifactKey: Guid(5cac951d96382cf4c85b2b5627343e76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Materials/matppfx_whiteSelfIllum.mat using Guid(5cac951d96382cf4c85b2b5627343e76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92003a866f89bcd0c378897b34ab0f25') in 0.0040442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ParticleProFX/Resources/Materials/matppfx_bloodSplatter_02.mat
+  artifactKey: Guid(b8aa7f74c3a98ce45bfe0e7253b94dbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Materials/matppfx_bloodSplatter_02.mat using Guid(b8aa7f74c3a98ce45bfe0e7253b94dbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ead105558ddbb85dad98f301d0f0739a') in 0.0120698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxExplosionFireball03.prefab
+  artifactKey: Guid(d16a9cc0aecee7248ac31a6ded035ecc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxExplosionFireball03.prefab using Guid(d16a9cc0aecee7248ac31a6ded035ecc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2363be23273cf16f0793f46e6519fca7') in 0.0165032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Effects/ppfxElectricWall.prefab
+  artifactKey: Guid(623292563a59b6f4eadb6a8f1617bbd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Effects/ppfxElectricWall.prefab using Guid(623292563a59b6f4eadb6a8f1617bbd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b101a616b91c0d17019b0fefb8eb335') in 0.0192331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Smokes/Preview/ppfxSmokeTurbulence02.png
+  artifactKey: Guid(e152b2a6e41bb504998c4dbcfac3ca34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Smokes/Preview/ppfxSmokeTurbulence02.png using Guid(e152b2a6e41bb504998c4dbcfac3ca34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e141039a1c115d078baf6eb8eddf95fe') in 0.0100916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ParticleProFX/Resources/Textures/smokeSheet04.png
+  artifactKey: Guid(00262b626be919a43b3a2be9e355c1d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Textures/smokeSheet04.png using Guid(00262b626be919a43b3a2be9e355c1d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a03d036d9dae5cb829e9f94f2a2c764d') in 0.0100399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ParticleProFX/Resources/Textures/explosionSheet09.png
+  artifactKey: Guid(d152169bdb8de9745819ac031119d73d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Textures/explosionSheet09.png using Guid(d152169bdb8de9745819ac031119d73d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '715439667d8ea6eac1a398db89700363') in 0.0096631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ParticleProFX/Resources/Library/ChainReactions/ppfxChainReaction01.prefab
+  artifactKey: Guid(e4954c9188969dc4588d3da21f31945d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/ChainReactions/ppfxChainReaction01.prefab using Guid(e4954c9188969dc4588d3da21f31945d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '697b6b116a4a92af4d82de5be2eedbce') in 0.0055319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Smokes/Preview/ppfxFlareSmokeOrange.png
+  artifactKey: Guid(d830a8226a7d1c144a0c967968982b7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Smokes/Preview/ppfxFlareSmokeOrange.png using Guid(d830a8226a7d1c144a0c967968982b7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '321bec25f75bf2a5691a0efb2e4a0486') in 0.0088096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Orbs/ppfxOrbLightning.prefab
+  artifactKey: Guid(363680259df793f41b90af0ad45ff7cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Orbs/ppfxOrbLightning.prefab using Guid(363680259df793f41b90af0ad45ff7cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0795c6db347cd1f332494848eaff265') in 0.0183272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxExplosionHeavyDebris2.prefab
+  artifactKey: Guid(ca278726b26cab44a8aa3a5c4fe01a2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxExplosionHeavyDebris2.prefab using Guid(ca278726b26cab44a8aa3a5c4fe01a2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21ac0240fd8325b67f959a1c215d0a89') in 0.019755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ParticleProFX/Resources/Library/BloodSplatter/Preview/ppfxBloodSplatter_03.png
+  artifactKey: Guid(20eaceea214f95b4cbd346d301fc2039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/BloodSplatter/Preview/ppfxBloodSplatter_03.png using Guid(20eaceea214f95b4cbd346d301fc2039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1baf110f4bc92e3e2d7cb7ce7de27aa') in 0.0076452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ParticleProFX/PPFXWindow
+  artifactKey: Guid(59eafbae8b7f5fe4db0b26ac01017be6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/PPFXWindow using Guid(59eafbae8b7f5fe4db0b26ac01017be6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec0b2f3c53cb8496ff21f381fea86ed5') in 0.003273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Effects/ppfxRayHorizontal.prefab
+  artifactKey: Guid(dd24ecb011a2dc74d8ecdb7d79a828ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Effects/ppfxRayHorizontal.prefab using Guid(dd24ecb011a2dc74d8ecdb7d79a828ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc066fb416b20637cd9fd9d0b0585040') in 0.0216851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Effects/Preview/ppfxRayLightning.png
+  artifactKey: Guid(d4b8ebda448af144b977bf54a675821a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Effects/Preview/ppfxRayLightning.png using Guid(d4b8ebda448af144b977bf54a675821a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8d4690272af57cb5f5d57ad4afe8c18') in 0.0085059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxGroundExplosionHit.prefab
+  artifactKey: Guid(d6a69ab869fa0154389da769608a22c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxGroundExplosionHit.prefab using Guid(d6a69ab869fa0154389da769608a22c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '205eee404d155aaed98aa1cfca365068') in 0.0173242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxExplosionFireball01.prefab
+  artifactKey: Guid(64d48cc8be380db4c9285fafe8c3c0a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxExplosionFireball01.prefab using Guid(64d48cc8be380db4c9285fafe8c3c0a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0e81a2ab576ee284b96e6f7a0161b7d') in 0.0176249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Orbs/Preview/ppfxOrbLightning.png
+  artifactKey: Guid(db48ac5d12d4711458f0994b4c5ddcee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Orbs/Preview/ppfxOrbLightning.png using Guid(db48ac5d12d4711458f0994b4c5ddcee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a259f0f6681efa4c4a5a9b76e734e93') in 0.006111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ParticleProFX/DemoScene/Scripts
+  artifactKey: Guid(68db0ebc51b22ed40b1cde564baef0aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/DemoScene/Scripts using Guid(68db0ebc51b22ed40b1cde564baef0aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '289ab28b78d021262548643827840b3a') in 0.0037737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Effects/ppfxRayLightning.prefab
+  artifactKey: Guid(90d6be0259fe4e24185ac6be60610b9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Effects/ppfxRayLightning.prefab using Guid(90d6be0259fe4e24185ac6be60610b9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7e912a0a0c96c41301b2c1917cfff74') in 0.0182088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Effects/ppfxRayRing02.prefab
+  artifactKey: Guid(577a2c804c53d8e478723dbfc156bffe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Effects/ppfxRayRing02.prefab using Guid(577a2c804c53d8e478723dbfc156bffe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c63ad48d1bec85a1dc87a5d0e909f81f') in 0.0154056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ParticleProFX/Resources/Textures/explosionSheet01.png
+  artifactKey: Guid(3aafc05430d8d2647b9f8c8f2608ed02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Textures/explosionSheet01.png using Guid(3aafc05430d8d2647b9f8c8f2608ed02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11d6288523755aa10a7604177bd03abe') in 0.0100657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ParticleProFX/Resources/Textures/flares_blue.png
+  artifactKey: Guid(12e00dc1231867a4e90a5566f123636b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Textures/flares_blue.png using Guid(12e00dc1231867a4e90a5566f123636b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77a498ce32bf863dc87a9a25b52d4aab') in 0.006579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ParticleProFX/DemoScene/Prefabs/_DemoScene.prefab
+  artifactKey: Guid(d33e0537e9536ba42863c7736b271c89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/DemoScene/Prefabs/_DemoScene.prefab using Guid(d33e0537e9536ba42863c7736b271c89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85ba1a4f45b0bdbf415525c7ee1c901f') in 0.0058125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxExplosionHeavyFireTrail.prefab
+  artifactKey: Guid(b242bffcaa0766647a3302efb1d5561e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxExplosionHeavyFireTrail.prefab using Guid(b242bffcaa0766647a3302efb1d5561e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '108bf1d61264a4eb5cedc6c2c9df3c5b') in 0.0165402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ParticleProFX/PPFXWindow/PPFXWindow.cs
+  artifactKey: Guid(d75c42ec022fb426598a772326c57538) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/PPFXWindow/PPFXWindow.cs using Guid(d75c42ec022fb426598a772326c57538) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6a47063de9bdce638e0df972c135639') in 0.0030743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ParticleProFX/Resources/Materials/matppfx_fadedLineSingle.mat
+  artifactKey: Guid(286ac1dab9f060640b24307717bf008e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Materials/matppfx_fadedLineSingle.mat using Guid(286ac1dab9f060640b24307717bf008e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '587ea900c446c99e704fd4f7300d8ba8') in 0.0054867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ParticleProFX/Resources/Textures/fireSheet_bw.png
+  artifactKey: Guid(bb160cef360cbc94b80a72655c638eee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Textures/fireSheet_bw.png using Guid(bb160cef360cbc94b80a72655c638eee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54e2b71356043dfb6d98dd7b79fcbcfb') in 0.0056831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview/ppfxPipelineFire.png
+  artifactKey: Guid(e9692b1d9ed5b804f988fc69c115e15a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview/ppfxPipelineFire.png using Guid(e9692b1d9ed5b804f988fc69c115e15a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b3d4a8b37a28e7044a7ce40bdf03ffb') in 0.0067277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Beams/Preview/ppfxBeam.png
+  artifactKey: Guid(38aa4513d1506434b9b20b8de6daeea8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Beams/Preview/ppfxBeam.png using Guid(38aa4513d1506434b9b20b8de6daeea8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59b63a38ecf43cb7423c8032d4b2314b') in 0.0052124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ParticleProFX/Resources/Materials/matppfx_explosion08.mat
+  artifactKey: Guid(0467ebe6124a8ed4599de3553f05bb6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Materials/matppfx_explosion08.mat using Guid(0467ebe6124a8ed4599de3553f05bb6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a3def6e47bca582201ac5564778f2ee') in 0.0045472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ParticleProFX/Resources/Materials/matppfx_debri_brown.mat
+  artifactKey: Guid(e9102770a1662fb4a91d81811cd65c3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Materials/matppfx_debri_brown.mat using Guid(e9102770a1662fb4a91d81811cd65c3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7edc8a3c684e77e34116964d029006f7') in 0.0044526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ParticleProFX/Resources/Textures/explosionSheet05.png
+  artifactKey: Guid(1f46b7ebee9f048488eeaedc7aba90c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Textures/explosionSheet05.png using Guid(1f46b7ebee9f048488eeaedc7aba90c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b02edc4b93050cdbd87cf3c4ac040d7e') in 0.0065682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ParticleProFX/Resources/Library/ChainReactions/Preview/ppfxMultipleHit.png
+  artifactKey: Guid(193a125a10ae18e499c14a2b95fb00ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/ChainReactions/Preview/ppfxMultipleHit.png using Guid(193a125a10ae18e499c14a2b95fb00ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9fdee2fd00413b4719146c62bd5d55b8') in 0.0059069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ParticleProFX/DemoScene/Prefabs/pyramid.prefab
+  artifactKey: Guid(f927e505f6e95af41a45c76b85150ac4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/DemoScene/Prefabs/pyramid.prefab using Guid(f927e505f6e95af41a45c76b85150ac4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d784a591b67d54f37362533615c2286') in 0.0052753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 88
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ParticleProFX/changelog.txt
+  artifactKey: Guid(7fcbebeedb5e97d42bc309337cf568ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/changelog.txt using Guid(7fcbebeedb5e97d42bc309337cf568ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57f5881bf4c75d2c019b844bef441a7d') in 0.0026899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ParticleProFX/Resources/Textures/bloodsplatter_02.png
+  artifactKey: Guid(6debe3a422394504b8996f8f2cf513d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Textures/bloodsplatter_02.png using Guid(6debe3a422394504b8996f8f2cf513d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b09d61146285880699b9bf33f77faf3d') in 0.0086238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxExplosionHeavyFast.prefab
+  artifactKey: Guid(dba8a7c3f9f24194da8a62b659225bbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxExplosionHeavyFast.prefab using Guid(dba8a7c3f9f24194da8a62b659225bbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e23f3e028a037d6a24d5618d2f3d4b09') in 0.015094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ParticleProFX/Resources/Materials/matppfx_smoke05.mat
+  artifactKey: Guid(c77efea05f12e1e48b0702ce39cdf09c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Materials/matppfx_smoke05.mat using Guid(c77efea05f12e1e48b0702ce39cdf09c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '859f3180341c3151208dbc6f6dae2e09') in 0.0048564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxPipelineFire.prefab
+  artifactKey: Guid(1732f8aca45b0d1468c617e0b551a5e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxPipelineFire.prefab using Guid(1732f8aca45b0d1468c617e0b551a5e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c201f29b4d11902ab1bcd55eb952d2f2') in 0.0140538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ParticleProFX/DemoScene/Materials
+  artifactKey: Guid(f8ba5ad71a2d50e44958fe5ebee73d3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/DemoScene/Materials using Guid(f8ba5ad71a2d50e44958fe5ebee73d3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e1a2d057f059b4d1ec09fd75630226f') in 0.0023567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ParticleProFX/Resources/Scripts
+  artifactKey: Guid(80d6f63ae0dcdcd47bfd79eb06d2cfd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Scripts using Guid(80d6f63ae0dcdcd47bfd79eb06d2cfd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '191b56c1d956850336363fadeb79c4ff') in 0.0029147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxExplosionHeavyRoughLong.prefab
+  artifactKey: Guid(a44f8feb757116f41b3d39e893be41a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxExplosionHeavyRoughLong.prefab using Guid(a44f8feb757116f41b3d39e893be41a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1fdb4ada68f70258a2cdd2ba6846fecd') in 0.017306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ParticleProFX/Resources/Textures/explosionSheet04.png
+  artifactKey: Guid(78f16170efe7ae444b93080f69fa5d9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Textures/explosionSheet04.png using Guid(78f16170efe7ae444b93080f69fa5d9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '751d580bfcebeeee82ff7b64c21f93cd') in 0.0057488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxFireBig.prefab
+  artifactKey: Guid(7edd08e6747e44ffcad818c5f9c94496) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxFireBig.prefab using Guid(7edd08e6747e44ffcad818c5f9c94496) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3478410a881b748b6b347f1711fe430b') in 0.0167339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview/ppfxExplosionFireball02.png
+  artifactKey: Guid(35b8232654f5a2847bf075fb50447d38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview/ppfxExplosionFireball02.png using Guid(35b8232654f5a2847bf075fb50447d38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a5c86fa4610888a7d5aedebdffed10c') in 0.0050977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview
+  artifactKey: Guid(80f9dfd0c3e77364c91a7dd93ebbb885) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview using Guid(80f9dfd0c3e77364c91a7dd93ebbb885) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57f60e6c74eb1bb9da948f0cae599011') in 0.002511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ParticleProFX/Resources/Textures/bloodsplatter_04.png
+  artifactKey: Guid(9e1edf425d58ef54480c82f561d0b25b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Textures/bloodsplatter_04.png using Guid(9e1edf425d58ef54480c82f561d0b25b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a805f6061d9cd9a7dd6d39191c95b19') in 0.007137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ParticleProFX/Resources/Materials/matppfx_explosionAlphaBlended.mat
+  artifactKey: Guid(63bdf12f11b58e8488c1e93b6f2c33c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Materials/matppfx_explosionAlphaBlended.mat using Guid(63bdf12f11b58e8488c1e93b6f2c33c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ed644e45d18a05da9cb080085cbd8c4') in 0.005997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxFireSmallSmoke.prefab
+  artifactKey: Guid(02d820be370ce2546aeabe88da940cee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxFireSmallSmoke.prefab using Guid(02d820be370ce2546aeabe88da940cee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbcf32be5dc8c15ce0d9873121865446') in 0.014664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ParticleProFX/Resources
+  artifactKey: Guid(946333347f132ae48b1a7338e1f93c27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources using Guid(946333347f132ae48b1a7338e1f93c27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4c0f9f6425b679eb34efb5681392413') in 0.0027886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ParticleProFX/Resources/Materials/matppfx_default.mat
+  artifactKey: Guid(2c128729f6f75ab4884d434397264f74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Materials/matppfx_default.mat using Guid(2c128729f6f75ab4884d434397264f74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e91014b54d25abc81d71b4eb4012ac37') in 0.0043971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview/ppfxExplosionHeavy.png
+  artifactKey: Guid(21069f999b1052d4eaffb2ebbe3651ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview/ppfxExplosionHeavy.png using Guid(21069f999b1052d4eaffb2ebbe3651ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ede898c2a8489d92bfa4e9accb8db38') in 0.0054247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ParticleProFX/Resources/Library/ChainReactions/ppfxDustExplosionMultipleHit.prefab
+  artifactKey: Guid(acccaa9e363e7ba4fbe700f900d768b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/ChainReactions/ppfxDustExplosionMultipleHit.prefab using Guid(acccaa9e363e7ba4fbe700f900d768b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19022181e30d57966acc6c48e252d193') in 0.0038232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxGroundFire.prefab
+  artifactKey: Guid(6305ed9bdc62a274da9933710a043cdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxGroundFire.prefab using Guid(6305ed9bdc62a274da9933710a043cdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f38006baf2e9c467a196ad6e9e28f0d5') in 0.0141314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview/ppfxExplosionSmall.png
+  artifactKey: Guid(3335de265ed85444fbbf286ac6b07482) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview/ppfxExplosionSmall.png using Guid(3335de265ed85444fbbf286ac6b07482) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b698b0f74a1da0dd7ec6ddda3d80340f') in 0.0051858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxExplosionHeavyRough.prefab
+  artifactKey: Guid(c124530d27c721e4fb400ab2f650df59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/ppfxExplosionHeavyRough.prefab using Guid(c124530d27c721e4fb400ab2f650df59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7048b5f08ff5a8c412a1a73bc4d01841') in 0.0194762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6319 unused Assets / (5.5 MB). Loaded Objects now: 7153.
+Memory consumption went from 154.7 MB to 149.2 MB.
+Total: 12.839700 ms (FindLiveObjects: 0.975400 ms CreateObjectMapping: 1.516000 ms MarkObjects: 7.439300 ms  DeleteObjects: 2.907600 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.661332 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Effects/ppfxLightningSphere.prefab
+  artifactKey: Guid(1a26ace046c4c6c4bb30186a02ceb5de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Effects/ppfxLightningSphere.prefab using Guid(1a26ace046c4c6c4bb30186a02ceb5de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ffd828c8724a851228d3b261030e40b') in 0.0209414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.054936 seconds.
+  path: Assets/ParticleProFX/Resources/Materials/matppfx_explosion07.mat
+  artifactKey: Guid(94441e992dccb49489d881e2b51b6cbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Materials/matppfx_explosion07.mat using Guid(94441e992dccb49489d881e2b51b6cbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '96d2b369fa68dcfe9fb59b35dbe3b942') in 0.0172654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Effects/ppfxElectricExplosion.prefab
+  artifactKey: Guid(b9d295024c7c2a744965c16adcc7c4a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Effects/ppfxElectricExplosion.prefab using Guid(b9d295024c7c2a744965c16adcc7c4a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '789d8ce2b02f031485921b3825103a02') in 0.1568531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Effects/Preview/ppfxRay.png
+  artifactKey: Guid(ade28802a924a5245abfc58df2d3f847) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Effects/Preview/ppfxRay.png using Guid(ade28802a924a5245abfc58df2d3f847) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6dff1ef713a4ceeb87333dd6e026e2f') in 0.0574935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ParticleProFX/Resources/Textures/bloodsplatter_01.png
+  artifactKey: Guid(32923e516a0375c41b4282a89cee1873) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Textures/bloodsplatter_01.png using Guid(32923e516a0375c41b4282a89cee1873) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52f1a77c2bd8cdd96c3c016493fabed3') in 0.0546594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ParticleProFX/Resources/Materials/matppfx_explosion06.mat
+  artifactKey: Guid(5bebc6dc26f41274382d8538f7d18d0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Materials/matppfx_explosion06.mat using Guid(5bebc6dc26f41274382d8538f7d18d0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3f3943eeed64975f3438b70bad3d3f2') in 0.0281236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Effects/Preview/ppfxRocket.png
+  artifactKey: Guid(6d9e5781049eb74489caf09f0760b2e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Effects/Preview/ppfxRocket.png using Guid(6d9e5781049eb74489caf09f0760b2e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d3ca81f2c545212ca2db9c8a9c6c924') in 0.0390814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ParticleProFX/Resources/Materials/matppfx_shockwaveSheet.mat
+  artifactKey: Guid(3e9aaeb303070b5408a0c52d4fdbacef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Materials/matppfx_shockwaveSheet.mat using Guid(3e9aaeb303070b5408a0c52d4fdbacef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd415f21a2393ebf2512f1e1df5cd4cb9') in 0.0167449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview/ppfxExplosionHeavyDebrisLong.png
+  artifactKey: Guid(903d6fee325a3f94197153cb27780fa7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Fire & Explosions/Preview/ppfxExplosionHeavyDebrisLong.png using Guid(903d6fee325a3f94197153cb27780fa7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7736e8983c50d1ba0a723e09e07ef69') in 0.0304888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ParticleProFX/PPFXWindow/Editor/PPFXRendererLayerEditor.cs
+  artifactKey: Guid(3040fd9a80dcc5a45a066b77bc5dca42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/PPFXWindow/Editor/PPFXRendererLayerEditor.cs using Guid(3040fd9a80dcc5a45a066b77bc5dca42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e36db046e088394ebcadcb0ffaf86c7') in 0.0367752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Beams/ppfxBeamElectric.prefab
+  artifactKey: Guid(18f9adde5c2124e44ab25bd2375fc08a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Beams/ppfxBeamElectric.prefab using Guid(18f9adde5c2124e44ab25bd2375fc08a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46e864bff03921db75156c46de550aa6') in 0.3470002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ParticleProFX/Resources/Library/Effects/Preview/ppfxElectricExplosion.png
+  artifactKey: Guid(31eee1c8a97526940908a87588bfc8dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ParticleProFX/Resources/Library/Effects/Preview/ppfxElectricExplosion.png using Guid(31eee1c8a97526940908a87588bfc8dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '437d84a8c90d64ff57eb2dcb8d548331') in 0.110306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6319 unused Assets / (3.4 MB). Loaded Objects now: 7153.
+Memory consumption went from 154.4 MB to 151.0 MB.
+Total: 12.249600 ms (FindLiveObjects: 1.047400 ms CreateObjectMapping: 0.820200 ms MarkObjects: 7.642100 ms  DeleteObjects: 2.738100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
